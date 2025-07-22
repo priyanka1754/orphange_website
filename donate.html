@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            
+            margin: 0 auto;
+            padding: 2rem;
+            
+        }
+        .part1{
+        display: flex;
+            justify-content: space-evenly;
+        }
+
+        .part2{
+        display: flex;
+            justify-content: space-evenly;
+        }
+        .donation-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .donation-card:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 0.5rem 2rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #donation1{
+            width:300px;
+        }
+        #donation2{
+            width:300px;
+        }
+        #donation3{
+            width:300px;
+        }
+        #donation4{
+            width:300px;
+        }
+
+        .scim {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .scim img {
+            display: block;
+            position: absolute;
+            
+            animation: scrolling 20s linear infinite;
+        }
+    </style>
+</head>
+<body>
+  <nav>
+        
+    <img src="angels.png" alt="freshhope">
+    
+    <a href="index.html"><p>HOME</p></a>
+    <a href="about.html"><p>ABOUT</p></a>
+    <a href="programs.html"><p>PROGRAMS</p></a>
+    <a href="howtohelp.html"><p>HOW TO HELP</p></a>
+    <a href="contact.html"><p>CONTACT US</p></a>
+    <div class="borderr">
+    <a href="donate.html"><button>DONATE</button></a></div>
+</nav>
+
+    <div class="scim">
+        <img src="orphan6.jpg" width="200px" height="200px">
+        <img src="orphan8.jpg" width="200px" height="200px">
+        <img src="orphan9.jpg" width="200px" height="200px">
+        <img src="orphan10.jpg" width="200px" height="200px">
+        <img src="orphan17.jpg" width="200px" height="200px">
+    </div>
+    <div class="part1">
+    <div class="donation-card" id="donation1">
+        <img src="orphan44.png" width="250px" height="300px">
+        <h2>Feed an Entire Orphanage</h2>
+        
+        <a href="donateonline.html"><button id="btnDonate1">Donate</button></a>
+    </div>
+    <div class="donation-card" id="donation2">
+        <img src="orphan35.jpg" width="250px" height="300px">
+        <h2>Support for Education</h2>
+       
+        <a href="donateonline.html"><button id="btnDonate2">Donate</button></a>
+    </div></div>
+
+    <div class="part2">
+    <div class="donation-card" id="donation3">
+        <img src="orphan11.jpg" width="250px" height="300px">
+        <h2>Support for accessories</h2>
+       
+        <a href="donateonline.html"><button id="btnDonate3">Donate</button></a>
+    </div>
+    <div class="donation-card" id="donation4">
+        <img src="orphan3.webp" width="250px" height="300px">
+        <h2>Buy a Stepping Stone and Help Build an Orphanage</h2>
+       
+        <a href="donateonline.html"><button id="btnDonate4">Donate</button></a>
+    </div></div>
+    
+    
+      
+     
+
+</body>
+</html>
+
+   <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Content with Scrolling Images</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .content {
+    width: 500px;
+    text-align: center;
+  }
+
+  .scrolling-images {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    pointer-events: none;
+  }
+
+  .scrolling-images img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    animation: scrolling 20s linear infinite;
+  }
+
+  @keyframes scrolling {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .scrolling-images img:nth-child(odd) {
+    animation-delay: -10s;
+  }
+</style>
+</head>
+<body>
+
+<div class="scrolling-images">
+  <img src="orphan12.png" alt="Left Image">
+  <img src="orphan1.jpg" alt="Right Image">
+</div>
+
+<div class="container">
+  <div class="content">
+    Your centered content goes here 
+    <h1>Welcome to My Website</h1>
+    <p>This is the main content of your webpage. It will be centered with 500px of space around it.</p>
+  </div>
+</div>
+
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+   .container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.content-column {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.scrolling-image-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.scrolling-image {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  animation: scroll 30s linear infinite;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.scrolling-image:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.scrolling-image:nth-child(2) {
+  animation-delay: -10s;
+}
+
+.scrolling-image:nth-child(3) {
+  animation-delay: -20s;
+}
+
+.scrolling-image:nth-child(4) {
+  animation-delay: -30s;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.left-column{
+    
+  width: 350px;
+  height: 422px;
+  float: left;
+}
+.item {
+  width: 350px;
+  height: 422px;
+  float: left;
+}
+</style>
+<body>
+    
+    <div class="container">
+        <div class="item" style="float:left">
+          <img src="http://www.imagesfestival.com/images/resize.php?width=350&src=images/news/216.jpg" />
+        </div>
+        <div class="item" style="float:left">
+          <img src="http://www.imagesfestival.com/images/resize.php?width=350&src=images/news/216.jpg" />
+        </div>
+        <div class="item" style="float:left">
+          <img src="http://www.imagesfestival.com/images/resize.php?width=350&src=images/news/216.jpg" />
+        </div>
+      </div>
+
+
+    <div class="container">
+        <div class="left-column">
+          <div class="scrolling-image-container">
+            <img src="orphan34.png" class="scrolling-image" width="200px" height="200px">
+            <img src="orphan43.png" class="scrolling-image" width="200px" height="200px">
+            more scrolling images 
+          </div>
+        </div>
+        <div class="content-column">
+          <h1>Content Title</h1>
+          <p>Content goes here.</p>
+        </div>
+        <div class="right-column">
+          <div class="scrolling-image-container">
+            <img src="orphan10.jpg" class="scrolling-image" width="200px" height="200px">
+            <img src="orphan12.png" class="scrolling-image" width="200px" height="200px">
+             more scrolling images 
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>-->

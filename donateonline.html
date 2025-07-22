@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donation Form</title>
+	<style>
+        body {
+	font-family: Arial, sans-serif;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input, textarea, select {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+input[type="submit"] {
+	margin-top: 20px;
+    width:20%;
+}
+
+input[type="button"]{
+    width: 20%;
+}
+
+.but1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.but2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-submit{
+    padding:16px;
+    border-radius: 25px;
+    border:none;
+    background-color: rgb(133, 248, 113);
+    cursor: pointer;
+}
+
+
+</style>
+<script src="script1.js"></script>
+</head>
+<body background="orphan42.jpg">
+    <!--<div class="container clearfix">
+        <img src="orphan10.jpg" class="left-image">
+        <img src="orphan11.jpg" class="right-image">
+    </div>-->
+    <div class="size">
+	<h1>Donation Form</h1>
+	<form id="donation-form" action="onlinedonation" method="POST" onsubmit="submitForm()">
+		<label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+		<label for="mobile">Mobile:</label><br>
+		<input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br>
+		<label for="address">Address:</label><br>
+		<textarea id="address" name="address" required></textarea><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+		<label for="donation-amount">Donation Amount:</label><br>
+		<input type="number" id="donation-amount" name="donation-amount" min="1" required><br><br><br>
+
+        <center>
+        <button type="submit" class="btn-submit">Proceed to Pay</button></center>
+
+        
+        <!-- <label for="payment-method">Payment Method:</label><br>
+		<div class="but1">
+        <input type="button" value="Debit Card">
+        <input type="button" value="Credit Card">
+        <input type="button" value="Net Banking">
+        </div><div class="but2">
+        <input type="button" value="Google Pay">
+        <input type="button" value="Phone Pay"></div> -->
+            <br><br><br>
+        <h3>Our Bank Details:</h3>
+        Name of Bank: SBI Bank<br>
+        Branch Name:NUZVID<br>
+        Holder's Name:Angles Orphanage<br>
+        Account no:20117707349<br>
+        IFSC Code:SBIN0203594<br>
+
+        <br><br><br><br>
+
+            <center><H4>THANK YOU :) </H4>
+        
+	</form>
+    </div>
+
+    <!--.container {
+  width: 100%;
+}
+
+.left-image {
+  float: left;
+  width: 45%;
+  height: auto;
+}
+
+.right-image {
+  float: right;
+  width: 45%;
+  height: auto;
+}-->
+</body>
+</html>

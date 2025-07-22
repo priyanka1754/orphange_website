@@ -1,0 +1,50 @@
+
+
+
+<web-app>
+<servlet>
+	<servlet-name>First</servlet-name>
+	<servlet-class>Login</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>First</servlet-name>
+	<url-pattern>/submit_login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Second</servlet-name>
+	<servlet-class>pickup</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Second</servlet-name>
+	<url-pattern>/bookapickup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Three</servlet-name>
+	<servlet-class>register</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Three</servlet-name>
+	<url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>fourth</servlet-name>
+	<servlet-class>contactt</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fourth</servlet-name>
+	<url-pattern>/contact</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fifth</servlet-name>
+	<servlet-class>donateonline</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fifth</servlet-name>
+	<url-pattern>/onlinedonation</url-pattern>
+</servlet-mapping>
+</web-app>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.locations {
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="time"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.prede{
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+
+
+  </style>
+   <script src="script1.js"></script>
+</head>
+<body background="orphan42.jpg">
+<form action="bookapickup" method="POST" onsubmit="submitForm()">
+  <div class="container">
+    <h1>Schedule a Pick Up</h1>
+    <p>We offer a pickup only for our surrounding areas .Please forgive if you are not in our coverage area.We are further developing our selves to improve better.
+    </p>
+    <div class="locations">
+      <p>Locations:</p>
+      <select name="location">
+        <option>Select your nearby location</option>
+        <option>Vijayawada</option>
+        <option>Guntur</option>
+        <option>Machilipatnam</option>
+        <option>Bhimavaram</option>
+        <option>Nuzvid</option>
+        <option>Mylavaram</option>
+        <option>Visannapeta</option>
+      </select>
+    </div>
+    <p>Donar Details:</p>
+    <div class="prede">
+    <pre>
+    Name:      <input type="text" id="name" name="name"><br><br>
+    Phone no:  <input type="text" name="phone"><br><br>
+    Mail id:   <input type="text"  name="email"><br><br>
+    Address:   <input type="text" name="address"><br><br>
+    </pre></div>
+    <p>Donation details:</p>
+    <select name="donate">
+      <option>Food</option>
+      <option>Clothes</option>
+      <option>Accessiors</option>
+      <option>Books</option>
+    </select>
+    
+    <label for="quantity">Quantity:</label><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="100"><br>
+    <p>Schedule your pickup</p>
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+    <label for="time">Time:</label><br>
+    <input type="time" id="time" name="time"><br>
+    <br>
+    <center><button type="submit">Submit</button>
+  </div>
+</form>
+</body>
+</html>

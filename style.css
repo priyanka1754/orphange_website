@@ -1,0 +1,222 @@
+*
+{
+    padding:0;
+    margin:none;
+}
+nav img{
+    width:100px;
+    height:100px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(99, 232, 101);
+    color: rgb(175, 243, 247);
+    
+}
+nav a{
+    text-decoration: none;
+}
+nav button{
+    border:none;
+    padding:20px;
+    font-size:18px;
+    margin-right: 40px;
+    background-color:rgb(99, 232, 101);
+    font-family: Comic Sans MS;
+    cursor: pointer;
+}
+
+.borderr{
+    border: 1px solid transparent;
+}
+
+.borderr:hover{
+    border: 1px solid white;
+    
+
+}
+.quote{
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    color:rgb(113, 241, 211);
+    font-size: 30px;
+    
+
+}
+
+.quotee{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(214, 3, 27, 0.977);
+    font-size: 30px;
+
+}
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.im{
+    display:flex;
+}
+.mission h5{
+    font-size: 20px;
+}
+.mission h2{
+    font-size: 30px;
+}
+
+.mission img{
+    width:300px;
+    height:300px;
+    margin-left: 0px;
+}
+
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.play{
+    margin-left: 100px;
+}
+.about{
+    display:flex;
+    align-items: center;
+}
+
+.msg{
+    padding:40px;
+    font-size: 18px;
+    font-weight: 10px;
+}
+
+.edu{
+    display:flex;
+}
+
+.education {
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.shelter{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.clothing{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.food{
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.she{
+    display:flex;
+}
+
+.clo{
+    display:flex;
+}
+
+.fud{
+    display:flex;
+}
+.imgg{
+    margin-left: 100px;
+}
+
+.bookapickup button{
+    padding: 12px;
+    margin-left: 100px;
+    background-color: rgb(255, 80, 0);
+    border:none;
+    border-radius: 18px;
+    cursor: pointer;
+    color:white;
+
+}
+
+.but{
+    display:flex;
+    margin-top: 100px;
+}
+
+.register button{
+
+    padding: 12px;
+    margin-left: 200px;
+    background-color: rgb(255, 80, 0);
+    border:none;
+    border-radius: 18px;
+    cursor: pointer;
+    color:white
+}
+
+.orderr{
+    display:flex;
+    justify-content: space-around;
+}
+
+.order{
+    display: block;
+    font-size: 18px;
+}
+
+.door{
+    font-size: 18px;
+}
+
+.pi{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer
+{
+margin-top:15px;
+}
+
+
+.foot2
+{
+background-color:#222f3d;
+color:white;
+height:200px;
+display:flex;
+justify-content:space-evenly;
+}
+
+
+ul a
+{
+display:block;
+}
+
+.foot3
+{
+height:50px;
+background-color:#37475a;
+color:white;
+display:flex;
+justify-content:center;
+}
+
+.bookapickup{
+    border: none;
+    padding:10px;
+    border-radius: 25px;
+}
